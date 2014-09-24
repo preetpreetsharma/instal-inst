@@ -1,0 +1,19 @@
+$ sudo apt-get install mysql-server
+$ sudo apt-get install mysql-client
+________________________________________
+
+while the installation is progressing you will be asked to enter a password for the MySQL root user. 
+___________________________________________
+
+To check whether the MySQL server is running, this is the command:
+
+$sudo netstat -tap | grep mysql
+
+You should see something like this:
+
+tcp        0      0 localhost.localdomain:mysql           *:* LISTEN -
+________________________________________________________________
+
+For a MySql gui(workbench), the command is:
+
+sudo apt-get install mysql-workbench
